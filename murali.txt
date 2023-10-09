@@ -1,0 +1,20 @@
+***Install java 11 
+	sudo yum install java-11-openjdk-devel
+	or 
+	 sudo amazon-linux-extras install java-openjdk11       --- if using amazon linux 
+
+
+*** Install WGET
+	sudo yum install wget
+	
+*** Install tomcat 
+	
+	wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.16/bin/apache-tomcat-10.0.16.tar.gz       ------  install tomcat
+	
+	tar -xf apache-tomcat-10.0.16.tar.gz                                                           ----- unziping the file
+			
+	sudo mkdir /opt/tomcat                                                                        ----- creating a directory
+	
+    sudo mv apache-tomcat-10.0.16 /opt/tomcat/                                                     ----- moving extracted tomcat file to tomcat directory
+
+dmk
